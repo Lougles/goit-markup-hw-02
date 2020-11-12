@@ -3,28 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>Goit-hw-02</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <nav>
         <a href="" target="_blank" rel="noopener noreferrer" class="logo">
-          WebStudio
+          <img src="./images/logo-nav.svg" alt="WebStudio">
         </a>
         <ul class="header-links">
           <li>
-            <a href="">Студия</a>
+            <a href="#">Студия</a>
           </li>
           <li>
-            <a href="portfolio.html">Портфолио</a>
+            <a href="./portfolio.html">Портфолио</a>
           </li>
           <li>
             <a href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="header-contacts">
+      <ul class="nav-contacts">
         <li>
           <a href="info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -37,12 +37,14 @@
     </header>
     <main>
       <section class="banner-section">
+        <h1>Эффективные решения для вашего бизнеса</h1>
+        <button class="banner-section-button">
+          <span class="banner-section-span">Заказать услугу</span>
+        </button>
+      </section>
+      <section class="qualities">
         <div>
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <button>Заказать услугу</button>
-        </div>
-        <div>
-          <ul>
+          <ul class="qualities-list">
             <li>
               <h4>Внимание к деталям</h4>
               <p>
@@ -74,10 +76,10 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="our-occupation">
         <div>
           <h2>Чем мы занимаемся</h2>
-          <ul>
+          <ul class="out-occupation-list">
             <li>
               <img src="./images/portfolio1.jpg" alt="Портфолио" width="250" />
             </li>
@@ -90,10 +92,10 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="our-team">
         <h2>Наша команда</h2>
         <ul>
-          <li class="card-ourteam1">
+          <li>
             <img
               src="./images/team1.jpg"
               alt="Фото Игорь Демьяненко"
@@ -102,12 +104,12 @@
             <h3>Игорь Демьяненко</h3>
             <p>Product Designer</p>
           </li>
-          <li class="card-ourteam2">
+          <li>
             <img src="./images/team2.jpg" alt="Фото Ольга Репина" width="250" />
             <h3>Ольга Репина</h3>
             <p>Frontend Developer</p>
           </li>
-          <li class="card-ourteam3">
+          <li>
             <img
               src="./images/team3.jpg"
               alt="Фото Николай Тарасов"
@@ -116,7 +118,7 @@
             <h3>Николай Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li class="card-ourteam4">
+          <li>
             <img
               src="./images/team4.jpg"
               alt="Фото Михаил Ермаков"
@@ -128,21 +130,23 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="" target="_blank" rel="noopener noreferrer">WebStudio</a>
-        <ul>
+        <a href="#" rel="noopener noreferrer" class="logo">
+          <img src="./images/logo-footer.svg" alt="WebStudio">
+        </a>
+        <ul class="footer-list-contacts">
           <li>
             <address>г.Киев, пр-т Леси Украинки, 26</address>
           </li>
-          <li>
-            <a href="">info@example.com</a>
+          <li class="footer-contact">
+            <a href="mailto:louglescom@gmail.com">info@example.com</a>
           </li>
-          <li>
-            <a href="">+38 (098) 111 11 11</a>
+          <li class="footer-contact">
+            <a href="tel:+380935014329">+38 099 111 11 11</a>
           </li>
         </ul>
       </div>
-    </footer>    
+    </footer>
   </body>
 </html>
