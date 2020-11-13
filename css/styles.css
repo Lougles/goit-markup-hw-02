@@ -13,15 +13,32 @@ a {
 }
 
 /*Логотип*/
-
-.logo {
-  font-family: 'Railway';
+.logo-blue{
+  font-family: 'Raleway';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--text-blue);
+}
+.logo-black {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--text-header);
+}
+.logo-white {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--text-white);
 }
 
 /*Навигация*/
@@ -37,7 +54,7 @@ a {
 .header-links li {
   color: rgba(255, 255, 255, 1);
 }
-.header-links a:active, 
+.header-links a:hover, 
 .header-links a:focus {
   color: var(--text-blue);
 }
@@ -48,6 +65,7 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: var(--text-p);
 }
 .nav-contacts li {
   color: rgba(255, 255, 255, 1);
@@ -158,6 +176,10 @@ a {
 
   color: var(--text-p);
 }
+.our-team img {
+  width: 270px;
+  height: 260px;
+}
 .our-team li{
   color: rgba(255, 255, 255, 0.9);
 }
@@ -213,7 +235,7 @@ a {
 background: var(--text-white);
 border-radius: 4px;
 }
-.portfolio-buttons-list button:active,
+.portfolio-buttons-list button:hover,
 .portfolio-buttons-list button:focus {
   background: var(--text-blue);
   color: var(--text-white);
