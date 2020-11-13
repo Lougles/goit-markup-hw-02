@@ -4,23 +4,30 @@ a {
   text-decoration: none;
   color: #212121;
 }
+:root {
+  --text-header: #212121;
+  --text-p: #757575;
+  --text-white: #ffffff;
+  --text-blue: #2196f3;
+  --background-footer: #2F303A;
+}
 
 /*Логотип*/
 
 .logo {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Railway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--text-blue);
 }
 
 /*Навигация*/
 
 .header-links a {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -31,11 +38,11 @@ a {
   color: rgba(255, 255, 255, 1);
 }
 .header-links a:active, 
-.header-links a:focus{
-  color: #2196f3;
+.header-links a:focus {
+  color: var(--text-blue);
 }
 .nav-contacts a {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -47,7 +54,7 @@ a {
 }
 .nav-contacts a:hover,
 .nav-contacts a:focus {
-  color: #2196f3;
+  color: var(--text-blue);
 }
 
 /*Большой баннер*/
@@ -56,7 +63,7 @@ a {
   background-color: #2F303A;
 }
 .banner-section h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -64,55 +71,43 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--text-white);
 }
 .banner-section-button {
-  background: #2196F3;
+  background: var(--text-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.banner-section-span {
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
 }
 
 /*Качества*/
 
 .qualities h4 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--text-header);
 }
 .qualities li{
   color: rgba(255, 255, 255, 1);
 }
 .qualities p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-p);
 }
 
 /*Чем мы занимаемся*/
 
 .our-occupation h2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -120,7 +115,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-header);
 }
 .our-occupation li{
   color: rgba(255, 255, 255, 1);
@@ -132,29 +127,27 @@ a {
   background-color: #F5F4FA;
 }
 .our-team h2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--text-header);
 }
 .our-team h3 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--text-header);
 }
 .our-team p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -162,7 +155,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text-p);
 }
 .our-team li{
   color: rgba(255, 255, 255, 0.9);
@@ -176,34 +169,32 @@ a {
   left: 0px;
   top: 2097px;
 
-  background-color: #2F303A;
+  background-color: var(--background-footer);
 }
-.footer .logo {
 
-  font-family: 'Times New Roman', Times, serif;
-  font-family: Raleway;
+.footer .logo {
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: var(--text-blue);
 }
 .footer address {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-
-  color: #FFFFFF;
+  color: var(--text-white);
 }
 .footer-list-contacts li {
   color: rgba(47, 48, 58, 0.9);
 }
 .footer-contact a { 
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -211,51 +202,44 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 /*Портфолио*/
-.portfolio-section h2 {
+
+.portfolio-nav-section h2 {
   color: rgba(255, 255, 255, 1);
 }
-.portfolio-buttons-list span {
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
 .portfolio-buttons-list button {
-background: #F5F4FA;
+background: var(--text-white);
 border-radius: 4px;
 }
 .portfolio-buttons-list button:active,
 .portfolio-buttons-list button:focus {
-  background: #2196F3;
+  background: var(--text-blue);
 }
 .portfolio-buttons-list {
   color: rgba(255, 255, 255, 1);
 }
 .portfolio-img-card {
-  background: #FFFFFF;
+  background: var(--text-white);
   box-sizing: border-box;
 }
 .portfolio-img-list li {
   color: rgba(255, 255, 255, 1);
 }
 .portfolio-img-list h3 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--text-header);
 }
 .portfolio-img-list p {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-p);
 }
