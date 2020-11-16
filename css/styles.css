@@ -13,6 +13,15 @@ a {
 }
 
 /*Логотип*/
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
 .logo-blue{
   font-family: 'Raleway';
   font-style: normal;
@@ -40,10 +49,34 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-white);
 }
+.header-block-logo{
+  padding: 10px;
+  text-decoration: none;  
+}
+
 
 /*Навигация*/
+.menu-list{
+  padding: 10px;
+  margin: 0;
+  list-style: none;
 
-.header-links a {
+  display: flex;
+}
+.menu-list > .item:not(:last-child) {
+  margin-right: 10px;
+}
+.menu-list .link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu-contacts .menu-contacts-item{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu-list a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -51,14 +84,14 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.header-links li {
+.menu-list li {
   color: rgba(255, 255, 255, 1);
 }
-.header-links a:hover, 
-.header-links a:focus {
+.menu-list a:hover, 
+.menu-list a:focus {
   color: var(--text-blue);
 }
-.nav-contacts a {
+.menu-contacts a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -67,11 +100,14 @@ a {
   letter-spacing: 0.02em;
   color: var(--text-p);
 }
-.nav-contacts li {
+.menu-contacts {
+  display: flex;
+}
+.menu-contacts li {
   color: rgba(255, 255, 255, 1);
 }
-.nav-contacts a:hover,
-.nav-contacts a:focus {
+.menu-contacts a:hover,
+.menu-contacts a:focus {
   color: var(--text-blue);
 }
 
@@ -176,22 +212,16 @@ a {
 
   color: var(--text-p);
 }
-.our-team img {
-  width: 270px;
-  height: 260px;
+.our-team-cards {
+  background-color: #ffffff;
 }
-.our-team li{
-  color: rgba(255, 255, 255, 0.9);
+.our-team li {
+  color: #ffffff;
 }
 
 /*Футер*/
 
 .footer {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-
   background-color: var(--background-footer);
 }
 
